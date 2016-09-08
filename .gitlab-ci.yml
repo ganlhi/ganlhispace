@@ -1,3 +1,6 @@
+before_script:
+  - git clone https://github.com/dim0627/hugo_theme_robust.git themes/hugo_theme_robust
+
 image: publysher/hugo
 
 pages:
