@@ -1,6 +1,7 @@
 baseurl = "http://ganlhi.space/"
 languageCode = "fr-fr"
 title = "Ganlhi Space"
+theme = "hugo_theme_robust"
 
 [Params]
   Author = "Guilhem Brouat"
