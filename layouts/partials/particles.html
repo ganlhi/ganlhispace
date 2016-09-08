@@ -1,0 +1,15 @@
+<script>
+  window.onload = function() {
+    var w = document.documentElement.clientWidth;
+    
+    Particles.init({ 
+      selector: '#banner',
+      connectParticles: false,
+      color: '#c4dbf1',
+      sizeVariations: 4,
+      speed: 0.4,
+      minDistance: Math.ceil(w/5),
+      maxParticles: Math.ceil(w/10)
+    });
+  };
+</script>

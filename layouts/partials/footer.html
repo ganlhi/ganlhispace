@@ -20,15 +20,7 @@ ga('send', 'pageview');
 </script>
 {{ end }}
 
-  <script>
-    window.onload = function() {
-      Particles.init({ 
-        selector: '#banner',
-        connectParticles: true,
-        color: '#c4dbf1'
-      });
-    };
-  </script>
-
-  </body>
+  {{ partial "particles.html" . }}
+  
+   </body>
 </html>
