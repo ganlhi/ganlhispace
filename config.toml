@@ -1,4 +1,4 @@
-baseurl = "https://ganlhi.gitlab.io/ganlhispace/"
+baseurl = "https://ganlhi.space"
 languageCode = "fr-fr"
 title = "Ganlhi Space"
 theme = "hugo_theme_robust"
