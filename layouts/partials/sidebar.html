@@ -1,0 +1,21 @@
+<aside class="site">
+
+  <section>
+    <header>Articles récents</header>
+    <div>
+      {{ range first 4 (where .Site.Pages "Section" "post") }}
+      {{ .Render "li" }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section>
+    <header>Catégories</header>
+    <div>
+      <ul>  
+        {{ range first 10 .Site.Taxonomies.categories.ByCount }}<li><a href="{{ $.Site.BaseURL}}categories/{{ .Name | urlize }}">{{ .Name }}</a></li>{{ end }}
+      </ul>
+    </div>
+  </section>
+
+</aside>

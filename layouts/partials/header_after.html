@@ -1,0 +1,23 @@
+</head>
+
+<body>
+  <canvas id="banner"></canvas>
+
+  <header class="l-header">
+    
+    <div class="p-logo">
+      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      
+      <nav class="main-pages">
+        <ul>
+          <li><a href="/post">Le blog</a></li>
+          {{ range where $.Site.Pages "Section" "article" }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+          {{ end }}
+          <li><a href="/photo">La galerie</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+

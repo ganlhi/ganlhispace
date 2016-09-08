@@ -1,0 +1,8 @@
+baseurl = "http://ganlhi.space/"
+languageCode = "fr-fr"
+title = "Ganlhi Space"
+
+[Params]
+  Author = "Guilhem Brouat"
+  disqusShortname = "Ganlhi"
+  DateForm = "02/01/2006"
