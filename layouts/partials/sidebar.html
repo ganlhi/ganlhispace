@@ -1,6 +1,15 @@
 <aside class="site">
 
   <section>
+    <header>Photos récentes</header>
+    <div>
+      {{ range first 4 (where .Site.Pages "Section" "photo") }}
+      {{ .Render "li_photo" }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section>
     <header>Articles récents</header>
     <div>
       {{ range first 4 (where .Site.Pages "Section" "post") }}

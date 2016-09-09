@@ -43,6 +43,16 @@ body .container .row .col-md-2 {
   /*z-index: 1;  */
 }
 
+
+/**************
+ *  Side bar  *   
+ **************/
+
+article.li .desc {
+  font-size: .7rem;
+}
+
+
 /*********************
  *  Main pages menu  *   
  *********************/

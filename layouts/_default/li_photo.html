@@ -1,0 +1,11 @@
+<article class="li">
+  <a href="{{ .Permalink }}" class="clearfix">
+    <div class="image" style="background-image: url(http://www.webastro.net/upload/minimages/{{ .Params.constellia_file }}.jpg)"></div>
+    <footer>
+      <h2 class="title">{{ .Title }}</h2>
+      <div class="desc">
+        {{ with .Description }}{{ . }}{{ end }}
+      </div>
+    </footer>
+  </a>
+</article>
