@@ -99,6 +99,12 @@ article.grid {
   background-color: rgba(255, 255, 255, 0.5);  
 }
 
+article.grid .summary {
+  font-size: 0.9em;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
+
 article.single {
   padding-bottom: 0;
 }
@@ -161,4 +167,32 @@ article.photo.single .details .prop {
 
 article.photo.single .details .prop::after {
   content: ' : ';
+}
+
+
+/**********
+ *  Home  *
+ **********/
+
+.homepage article.li {
+  height: auto;
+  /*max-height: 24rem;*/
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.homepage article.li .image {
+  height: 3rem;
+  width: 3rem;
+}
+
+.homepage article.li footer {
+  height: 3rem;
+}
+
+.homepage article.li .title {
+  font-size: 1.1rem;
+}
+
+.homepage article.li .date {
+  font-size: .8rem;
 }

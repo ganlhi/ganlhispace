@@ -2,24 +2,33 @@
 {{ partial "header_before.html" . }}
 {{ partial "header_after.html" . }}
 
-<div class="container">
+<div class="container homepage">
   <div class="row">
-    <div class="col-md-10">
-
+    <div class="col-md-8 col-sm-12">
       <div class="row">
-        {{ range first 4 (where .Site.Pages "Section" "post") }}
-        <div class="col-sm-6">
+        <h1 class="p-page-title col-sm-12">Photos récentes</h1>
+      </div>
+      <div class="row">
+        {{ range first 3 (where .Site.Pages "Section" "photo") }}
+        <div class="col-sm-4">
           {{ .Render "grid" }}
         </div>
         {{ end }}
       </div>
-
     </div>
 
-    <div class="col-md-2">
-      {{ partial "sidebar.html" . }}
+    <div class="col-md-4 col-sm-12">
+      <div class="row">
+        <h1 class="p-page-title col-sm-12">Articles récents</h1>
+      </div>
+      <div class="row">
+        {{ range first 4 (where .Site.Pages "Section" "post") }}
+        <div class="col-md-12 col-sm-3">
+          {{ .Render "li" }}
+        </div>
+        {{ end }}
+      </div>
     </div>
-
   </div>
 
 </div>
