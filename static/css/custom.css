@@ -157,7 +157,7 @@ article.photo.single .details {
 }
 
 article.photo.single .details p {
-  flex: 1 0 50%;
+  flex: 0 1 50%;
 }
 
 article.photo.single .details .prop {
@@ -167,6 +167,15 @@ article.photo.single .details .prop {
 
 article.photo.single .details .prop::after {
   content: ' : ';
+}
+
+@media screen and (max-width: 650px) {
+  article.photo.single .details {
+    flex-direction: column;
+  }
+  article.photo.single .details p {
+    flex: 1;
+  }
 }
 
 
