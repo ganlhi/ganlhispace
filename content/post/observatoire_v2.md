@@ -2,7 +2,6 @@
 date = "2016-10-18T08:49:00+02:00"
 draft = false
 title = "Observatoire 2.0"
-publishdate = "2016-10-18T07:49:00+02:00"
 +++
 
 Il y a une dizaine de jours, je tweetais ceci :

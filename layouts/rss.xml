@@ -4,7 +4,7 @@
     <description>Contenu récent sur {{ .Site.Title }}.</description>
     <link>{{ .Permalink }}</link>
     <language>fr-fr</language>
-    <webMaster>{{ .Site.Params.Author }}</webMaster>
+    <webMaster>{{ .Site.Params.AuthorMail }} ({{ .Site.Params.Author }})</webMaster>
     <copyright>(C) {{ .Site.LastChange.Year }}</copyright>
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" }} {{ with .Date.Format "MST" }}{{ if eq . "UTC" }}UT{{else}}{{.}}{{end}}{{end}}</lastBuildDate>
     <atom:link href="{{.Permalink}}/index.xml" rel="self" type="application/rss+xml" />
