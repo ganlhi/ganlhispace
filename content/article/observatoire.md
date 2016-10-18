@@ -23,3 +23,5 @@ Voici quelques photos qui datent de cette étape :
 [<img src="/images/obs2.jpg" style="width: 300px !important">](/images/obs2.jpg)
 
 Aujourdhui, je travaille à la fabrication d'un toit roulant motorisé. Je ferai un article accompagné de photos et vidéos quand le tout sera terminé. 
+
+*Mise à jour du 18/10/2016 :* J'ai entamé une refonte de l'observatoire. Voir [cet article](/post/observatoire_v2).

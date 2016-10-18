@@ -113,6 +113,10 @@ article.single .body {
   padding-top: 1px;
 }
 
+article.single .body a {
+  color: #296482;
+}
+
 article.single aside {
   padding: 0;
 }
