@@ -18,11 +18,11 @@
         <guid>{{ .Permalink }}</guid>
         {{ if eq .Type "photo" }}
         <description>
-          {{ htmlEscape .Description }}
+          {{ .Description | html }}
         </description>
         {{ else }}
         <description>
-          {{ htmlEscape .Content }}
+          {{ .Content | html }}
         </description>
         {{ end }}
       </item>
