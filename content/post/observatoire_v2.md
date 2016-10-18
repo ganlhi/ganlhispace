@@ -6,8 +6,9 @@ title = "Observatoire 2.0"
 
 Il y a une dizaine de jours, je tweetais ceci :
 
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Stop les demi-mesures ! On vide tout, on règle les problèmes un à un, et on repart sur de bonnes bases. À suivre sur <a href="https://t.co/1z0Xpr8wbP">https://t.co/1z0Xpr8wbP</a> <a href="https://t.co/cPPbNDxmfU">pic.twitter.com/cPPbNDxmfU</a></p>&mdash; Guilhem Brouat (@ganlhi) <a href="https://twitter.com/ganlhi/status/785048162796986368">9 octobre 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Stop les demi-mesures ! On vide tout, on règle les problèmes un à un, et on repart sur de bonnes bases. À suivre sur [ganlhi.space](http://ganlhi.space)
+
+> [voir le tweet](https://twitter.com/ganlhi/status/785048162796986368)
 
 En effet, je venais d'essayer d'installer mon nouveau toit roulant motorisé, et de me rendre compte que si le toit était bien droit et fonctionnait parfaitement, les murs de l'abri eux n'étaient pas d'équerre... Du coup, j'allais devoir faire des raccords en bois pour rattraper les écarts et ne pas laisser de gros trous entre la structure du toit et les murs. 
 
