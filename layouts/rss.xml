@@ -1,18 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Site.Title }} </title>
+    <title>{{ .Site.Title }}</title>
+    <description>Contenu récent sur {{ .Site.Title }}.</description>
     <link>{{ .Permalink }}</link>
-    <language>en-us</language>
-    <author>{{ .Site.Params.Author }}</author>
-    <rights>(C) {{ .Site.LastChange.Year }}</rights>
-    <updated>{{ .Date }}</updated>
+    <language>fr-fr</language>
+    <webMaster>{{ .Site.Params.Author }}</webMaster>
+    <copyright>(C) {{ .Site.LastChange.Year }}</copyright>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" }} {{ with .Date.Format "MST" }}{{ if eq . "UTC" }}UT{{else}}{{.}}{{end}}{{end}}</lastBuildDate>
+    <atom:link href="{{.Permalink}}/index.xml" rel="self" type="application/rss+xml" />
 
     {{ range .Site.Pages }}
       <item>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
-        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
-        <author>{{ .Site.Params.Author }}</author>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05" }} {{ with .Date.Format "MST" }}{{ if eq . "UTC" }}UT{{else}}{{.}}{{end}}{{end}}</pubDate>
+        <author>{{ .Site.Params.AuthorMail }} ({{ .Site.Params.Author }})</author>
         <guid>{{ .Permalink }}</guid>
         {{ if eq .Type "photo" }}
         <description>{{ .Description | html }}</description>
