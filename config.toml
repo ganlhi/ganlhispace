@@ -4,6 +4,7 @@ title = "Ganlhi Space"
 theme = "hugo_theme_robust"
 
 [Params]
+  AuthorMail = "ganlhi@gmail.com"
   Author = "Guilhem Brouat"
   disqusShortname = "Ganlhi"
   DateForm = "02/01/2006"
