@@ -17,13 +17,13 @@
         <author>{{ .Site.Params.AuthorMail }} ({{ .Site.Params.Author }})</author>
         <guid>{{ .Permalink }}</guid>
         {{ if eq .Type "photo" }}
-        <content:encoded><![CDATA[
+        <content type="html"><![CDATA[
           {{ .Description | html }}
-        ]]></content:encoded>
+        ]]></content type="html">
         {{ else }}
-        <content:encoded><![CDATA[
+        <content type="html"><![CDATA[
           {{ .Content | html }}
-        ]]></content:encoded>
+        ]]></content type="html">
         {{ end }}
       </item>
     {{ end }}
