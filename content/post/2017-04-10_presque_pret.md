@@ -12,7 +12,7 @@ Pour résoudre ce problème, l'objectif était de faire en sorte de n'avoir que 
 
 Voici le schéma de cette nouvelle installation :
 
-[<img src="/images/sothisv2_schema.png" style="width: 800px !important">](/images/sothisv2_schema.png)
+[<img src="/images/sothisv2_schema.png?v=2" style="width: 800px !important">](/images/sothisv2_schema.png?v=2)
 
 Un Raspberry Pi 2, faisant tourner [Jeedom](https://www.jeedom.com/) un logiciel de domotique, contrôle via ses ports GPIO une carte 8 relais (liaison orange). Cette carte envoie les trois tensions nécessaires, fournies par une alimentation de PC (couplée à un petit transformateur réglable pour le 7,5V), au travers de la liaison rouge vers la boite de distribution qui est attachée sous le télescope. Une liaison 12V part également vers la monture.
 
