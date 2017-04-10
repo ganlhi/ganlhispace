@@ -22,8 +22,8 @@
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="http://ganlhi.space/photo/jupiter/">
-    <meta name="description" content="Et ses enfants">
+    <meta property="og:url" content="http://ganlhi.space/post/2017-04-10_presque_pret/">
+    
     
 
 
@@ -35,15 +35,15 @@
       "@type":"WebPage",
       "@id":"http:\/\/ganlhi.space\/"
     },
-    "headline": "Jupiter |  ",
+    "headline": "Presque prêt ! |  ",
     "image": {
       "@type": "ImageObject",
       "url": "",
       "height": 700,
       "width": 700
     },
-    "datePublished": "2016-09-08T16:04:36JST",
-    "dateModified": "2016-09-08T16:04:36JST",
+    "datePublished": "2017-04-10T06:33:00JST",
+    "dateModified": "2017-04-10T06:33:00JST",
     "author": {
       "@type": "Person",
       "name": "",
@@ -59,7 +59,7 @@
         "width": 60
       }
     },
-    "description": "Et ses enfants"
+    "description": ""
   }
 </script>
 </head>
@@ -91,74 +91,37 @@
 
   <div class="row">
     <div class="col-md-10">
-      
-      <article class="single photo">
-      
-        <header>
-            <h1>Jupiter</h1>
-            <h2>Et ses enfants</h2>
-            <a href="http://www.webastro.net/index.php?constellia&photo=52664" title="Voir sur Constellia" alt="Voir sur Constellia"></a>
-        </header>
 
-        <a href="http://www.webastro.net/upload/images/26982-1473343534.jpg" target="_blank">
-          <img 
-            src="http://www.webastro.net/upload/mediumimages/26982-1473343534.jpg" 
-            title="NGC281" alt="NGC281" 
-            
-          >
-        </a>
-
-        <div class="details">
-          <p>
-            <span class="prop">Date de prise de vue</span>
-            <span class="value">2016-02-04</span>
-          </p>
-          <p>
-            <span class="prop">Nombre de poses</span>
-            <span class="value"></span>
-          </p>
-          <p>
-            <span class="prop">Durée d'exposition</span>
-            <span class="value"></span>
-          </p>
-          <p>
-            <span class="prop">ISO</span>
-            <span class="value"></span>
-          </p>
-          <p>
-            <span class="prop">Focale</span>
-            <span class="value">750</span>
-          </p>
-          <p>
-            <span class="prop">Instrument</span>
-            <span class="value">Newton SkyWatcher 150/750</span>
-          </p>
-          <p>
-            <span class="prop">Imageur</span>
-            <span class="value">Canon EOS 1200D</span>
-          </p>
-          <p>
-            <span class="prop">Monture</span>
-            <span class="value">AZ-EQ6</span>
-          </p>
-          <p>
-            <span class="prop">Guidage</span>
-            <span class="value"></span>
-        </div> </p>
-
-        <div class="body">
-          
-        </div>
+      <article class="single">
         
+        <div class="body">
+          <h1>Presque prêt !</h1>
+          <p>Après plusieurs mois de recherches, d&rsquo;expérimentations, de modification de design&hellip; J&rsquo;ai enfin progressé sur la nouvelle configuration de matériel devant aller dans l&rsquo;observatoire.</p>
+
+<p>Le principal problème était la gestion de l&rsquo;alimentation électrique des différents équipements : en effet, chaque appareil était alimenté par son propre câble qui descendait jusqu&rsquo;à une multiprise contrôlée par des relais, mais celle-ci étant positionnée sur le mur de l&rsquo;observatoire, il y avait beaucoup de câbles <em>suspendus</em> au télescope, augmentant le risque que ceux-ci se prennent dans la monture lors des déplacements.</p>
+
+<p>Pour résoudre ce problème, l&rsquo;objectif était de faire en sorte de n&rsquo;avoir que deux câbles qui montent jusqu&rsquo;au télescope : un d&rsquo;alimentation, et un USB, le câble d&rsquo;alimentation devant véhiculer trois tensions différentes : 5V pour le hub USB, 7,5V pour l&rsquo;appareil photo, et 12V pour le moteur de mise au point.</p>
+
+<p>Voici le schéma de cette nouvelle installation :</p>
+
+<p><a href="/images/sothisv2_schema.png"><img src="/images/sothisv2_schema.png" style="width: 800px !important"></a></p>
+
+<p>Un Raspberry Pi 2, faisant tourner <a href="https://www.jeedom.com/">Jeedom</a> un logiciel de domotique, contrôle via ses ports GPIO une carte 8 relais (liaison orange). Cette carte envoie les trois tensions nécessaires, fournies par une alimentation de PC (couplée à un petit transformateur réglable pour le 7,5V), au travers de la liaison rouge vers la boite de distribution qui est attachée sous le télescope. Une liaison 12V part également vers la monture.</p>
+
+<p>Concernant les liaison USB (en bleu), un hub USB alimenté par la boite de distribution est fixée sur celle-ci, et permet de connecter le couvercle motorisé, la caméra de guidage, l&rsquo;appareil photo et le moteur de mise au point. La monture a son propre câble USB qui la relie au PC.</p>
+
+<p>Je posterai quelques photos du tout une fois installé dans l&rsquo;observatoire !</p>
+
+        </div>
 
         <aside>
           <section>
             <div>
               <div class="p-share">
-                <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2fganlhi.space%2fphoto%2fjupiter%2f&t=Jupiter" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-                <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fganlhi.space%2fphoto%2fjupiter%2f&text=Jupiter&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-                <a href="https://plus.google.com/share?url=http%3a%2f%2fganlhi.space%2fphoto%2fjupiter%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-                <a href="http://getpocket.com/edit?url=http%3a%2f%2fganlhi.space%2fphoto%2fjupiter%2f&title=Jupiter" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+                <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2fganlhi.space%2fpost%2f2017-04-10_presque_pret%2f&t=Presque%20pr%c3%aat%20%21" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+                <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2fganlhi.space%2fpost%2f2017-04-10_presque_pret%2f&text=Presque%20pr%c3%aat%20%21&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/share?url=http%3a%2f%2fganlhi.space%2fpost%2f2017-04-10_presque_pret%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+                <a href="http://getpocket.com/edit?url=http%3a%2f%2fganlhi.space%2fpost%2f2017-04-10_presque_pret%2f&title=Presque%20pr%c3%aat%20%21" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
               </div>
             </div>
           </section>
@@ -167,11 +130,9 @@
             
             <nav class="p-paging">
               
-              <a href="http://ganlhi.space/photo/m81-m82/" rel="nofollow">Précédant</a>
+              <a href="http://ganlhi.space/post/2016-11-28_nouveau_toit/" rel="nofollow">Précédant</a>
               
 
-              
-              <a href="http://ganlhi.space/photo/m51/" rel="nofollow">Suivant</a>
               
             </nav>
             

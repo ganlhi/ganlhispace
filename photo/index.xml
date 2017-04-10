@@ -6,10 +6,38 @@
     <link>http://ganlhi.space/photo/index.xml</link>
     <language>fr-fr</language>
     <webMaster>ganlhi@gmail.com (Guilhem Brouat)</webMaster>
-    <copyright>(C) 2016</copyright>
+    <copyright>(C) 2017</copyright>
     <lastBuildDate>Fri, 09 Sep 2016 09:46:07 +0200</lastBuildDate>
     <atom:link href="http://ganlhi.space/photo/index.xml" rel="self" type="application/rss+xml" />
 
+    
+      <item>
+        <title>Presque prêt !</title>
+        <link>http://ganlhi.space/post/2017-04-10_presque_pret/</link>
+        <pubDate>Mon, 10 Apr 2017 06:33:00 +0200</pubDate>
+        <author>ganlhi@gmail.com (Guilhem Brouat)</author>
+        <guid>http://ganlhi.space/post/2017-04-10_presque_pret/</guid>
+        
+        <description>
+          &lt;p&gt;Après plusieurs mois de recherches, d&amp;rsquo;expérimentations, de modification de design&amp;hellip; J&amp;rsquo;ai enfin progressé sur la nouvelle configuration de matériel devant aller dans l&amp;rsquo;observatoire.&lt;/p&gt;
+
+&lt;p&gt;Le principal problème était la gestion de l&amp;rsquo;alimentation électrique des différents équipements : en effet, chaque appareil était alimenté par son propre câble qui descendait jusqu&amp;rsquo;à une multiprise contrôlée par des relais, mais celle-ci étant positionnée sur le mur de l&amp;rsquo;observatoire, il y avait beaucoup de câbles &lt;em&gt;suspendus&lt;/em&gt; au télescope, augmentant le risque que ceux-ci se prennent dans la monture lors des déplacements.&lt;/p&gt;
+
+&lt;p&gt;Pour résoudre ce problème, l&amp;rsquo;objectif était de faire en sorte de n&amp;rsquo;avoir que deux câbles qui montent jusqu&amp;rsquo;au télescope : un d&amp;rsquo;alimentation, et un USB, le câble d&amp;rsquo;alimentation devant véhiculer trois tensions différentes : 5V pour le hub USB, 7,5V pour l&amp;rsquo;appareil photo, et 12V pour le moteur de mise au point.&lt;/p&gt;
+
+&lt;p&gt;Voici le schéma de cette nouvelle installation :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ganlhi.space/images/sothisv2_schema.png&#34;&gt;&lt;img src=&#34;http://ganlhi.space/images/sothisv2_schema.png&#34; style=&#34;width: 800px !important&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Un Raspberry Pi 2, faisant tourner &lt;a href=&#34;https://www.jeedom.com/&#34;&gt;Jeedom&lt;/a&gt; un logiciel de domotique, contrôle via ses ports GPIO une carte 8 relais (liaison orange). Cette carte envoie les trois tensions nécessaires, fournies par une alimentation de PC (couplée à un petit transformateur réglable pour le 7,5V), au travers de la liaison rouge vers la boite de distribution qui est attachée sous le télescope. Une liaison 12V part également vers la monture.&lt;/p&gt;
+
+&lt;p&gt;Concernant les liaison USB (en bleu), un hub USB alimenté par la boite de distribution est fixée sur celle-ci, et permet de connecter le couvercle motorisé, la caméra de guidage, l&amp;rsquo;appareil photo et le moteur de mise au point. La monture a son propre câble USB qui la relie au PC.&lt;/p&gt;
+
+&lt;p&gt;Je posterai quelques photos du tout une fois installé dans l&amp;rsquo;observatoire !&lt;/p&gt;
+
+        </description>
+        
+      </item>
     
       <item>
         <title>Un nouveau toit</title>
@@ -338,6 +366,8 @@
 &lt;p&gt;Aujourdhui, je travaille à la fabrication d&amp;rsquo;un toit roulant motorisé. Je ferai un article accompagné de photos et vidéos quand le tout sera terminé.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Mise à jour du 18/10/2016 :&lt;/em&gt; J&amp;rsquo;ai entamé une refonte de l&amp;rsquo;observatoire. Voir &lt;a href=&#34;http://ganlhi.space/post/observatoire_v2&#34;&gt;cet article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mise à jour du 10/04/2017 :&lt;/em&gt; La nouvelle config est presque prête ! Voir &lt;a href=&#34;http://ganlhi.space/post/2017-04-10_presque_pret&#34;&gt;cet article&lt;/a&gt;.&lt;/p&gt;
 
         </description>
         
